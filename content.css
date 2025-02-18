@@ -9,16 +9,11 @@ body{
  .head{
     height:80px;
     display: flex;
-    position: sticky;
-    top: 0px;
  }
  .logo1{
     padding-top: 27px;
     padding-left: 94px;
     padding-right: 120px;
- }
- .hamburger{
-    display: none;
  }
  .diferent-texts{
     height:24px;
@@ -37,61 +32,22 @@ body{
     margin-top: 22px;
 
 }
+.login:hover{
+    background-color: aqua;
+}
 .signup{
     background-color: #295FB7;
-    height:40px;
-    width: 80px;
-    border-radius: 6px;
+    height:30px;
+    width: 70px;
+    border-radius: 2px;
     color: #FFFFFF;
     border: 0px;
    
     gap: 2px;
     margin-top: 22px;
 }
-.head.scrolled {
-    background-color: rgba(0, 0, 0, 0.7); 
-    border-radius: 20px;
-    
-}
-
-.head.scrolled .logo1 {
-    padding-top: 20px; 
-}
-
-.head.scrolled .diferent-texts {
-    width: 100%; 
-    padding: 15px 0; 
-    gap: 20px;
-    color: white;
-    margin-left: 50px;
-    
-    align-items: center;
-    margin-top: 15px;
-}
-
-.head.scrolled .button-container {
-    /* position: absolute; */
-    right: 40px; 
-    top: 20px; 
-    align-items: center;
-    /* bottom: 5px; */
-    margin-bottom: 10px;
-    display: flex;
-    /* padding-right: 40px; */
-    margin-right: 60px;
-    gap: 10px;
-}
-
-.head.scrolled .login {
-    width: 70px; 
-    font-size: 12px; 
-    padding: 8px 10px;
-}
-
-.head.scrolled .signup {
-    width: 60px; 
-    font-size: 12px; 
-    /* padding: 6px 10px; */
+.signup:hover{
+    background-color: aqua;
 }
 .back-image{
     background-image: url("./assets/images/Group\ 2229.png");
@@ -100,29 +56,6 @@ body{
     height: 600px;
 
 }
-.scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none; 
-}
-
-#scrollToTopBtn {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-#scrollToTopBtn:hover {
-    background-color: #0056b3;
-}
-
 h1{
     color: #FFFFFF;
     font-size: 50px;
@@ -165,6 +98,7 @@ h6{
     width:20px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 5px;
 }
 .line{
     margin-top: -20px;
@@ -195,8 +129,8 @@ gap:15px;
 }
 
 .card1{
-    height:180px;
-    width:300px;
+    height:190px;
+    width:310px;
     background-color: #FFFFFF;
     text-align: center;
     padding-top: 50px;
@@ -205,6 +139,12 @@ gap:15px;
 .card1:hover{
     background-color: #295FB7;
     color: white;
+}
+.color12:hover{
+    color: white;
+}
+.your-city{
+    opacity: 0.6; border: none; appearance: none;
 }
 .image1{
     height:50px;
@@ -216,14 +156,13 @@ gap:15px;
     gap: 20px;
     justify-content: center;
 }
-.property{
-    font-size: 20px;
+.property1{
+    font-size: 16px;
     color: #2455A9;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-weight: bolder;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
-.card1:hover .property{
+.property1:hover{
     color: white;
 }
 .best{
@@ -240,12 +179,14 @@ gap:15px;
 .first-card{
     margin-left: 100px;
 }
+
 .second-row{
     margin-top: 20px;
 }
 .cards6-flex{
     display: flex;
     gap: 20px;
+
 }
 .cards6{
     background-color: #ECF4FD;
@@ -257,6 +198,7 @@ gap:15px;
 }
 .cards6:hover{
     background-color: #295EB5;
+    color: white;
 }
 
 .j:hover {
@@ -297,7 +239,8 @@ gap:15px;
     text-align: center;
     color: #295FB7;
     padding-top: 35px;
-    font-family:italic;
+    font-family:sans-serif;
+    
 }
 .down-card{
     height: 600px;
@@ -321,6 +264,9 @@ gap:15px;
     margin-right: 120px;
 
 }
+.view-but:hover{
+    background-color: aqua;
+}
 .two-elements{
     display: flex;
     justify-content: space-between;
@@ -328,14 +274,17 @@ gap:15px;
 .down-images{
     height:365px;
     width:310px;
-    
+
 }
-.down-second-image{
-    background-image: url("./assets/images/aranprime.png");
-    background-size: cover;
-    height:365px;
-    width:310px;
+
+.down-images1:hover .color1{
+    display: block;
+    position: absolute;
+    margin-left: 100px;
+   
+
 }
+
 .view-down{
     background-color:#2455A9;
     color: white;
@@ -345,35 +294,8 @@ gap:15px;
     border: 0px;
 
 }
-.img-hov{
-    position: relative;
-}
-
-.img-hov:hover .color1 {
-    display: block;
-    position: absolute;
-    top: 10px;
-    justify-content: center;
-    margin-left: 100px;
-    /* opacity: 0.6px; */
-    /* background-color: #00000020; */
-    cursor: pointer;
-    
-}
-.img-hov::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* Light darkish overlay */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.img-hov:hover::after {
-    opacity: 1; /* Show overlay on hover */
+.view-down:hover{
+    background-color: aqua;
 }
 .color1{
     color: white;
@@ -381,6 +303,7 @@ gap:15px;
     padding-top: 80px;
     display: none;
     position: relative;
+    margin-top: -350px;
 }
 .down-flex{
     display: flex;
@@ -417,6 +340,7 @@ gap:15px;
     margin-left: 30px;
     
 }
+
 .need{
     font-size: 35px;
     color:#FFFFFF;
@@ -424,10 +348,9 @@ gap:15px;
     padding-bottom: 26px;
 }
 .social1{
-    padding-top: 30px;
-    /* font-weight: bold; */
+    padding-top: 40px;
+    font-weight: bold;
 }
-
 .card2{
     display: flex;
 }
@@ -448,7 +371,7 @@ gap:15px;
     margin-bottom: 20px;
     padding-top: 15px;
     padding-left: 16px;
-    border: none;
+    border: 0px;
 }
 .box-2{
     height:130px;
@@ -457,20 +380,8 @@ gap:15px;
     margin-top: 20px;
     padding-top: 15px;
     padding-left: 16px;
-    border: none;
-    /* appearance: none; */
-    resize: none;
+    border: 0px;
 
-}
-p{
-    font-weight: bold;
-    /* font-style: italic; */
-}
-.box-1:focus, .box-2:focus {
-    outline: none;
-}
-select:focus{
-    outline: none;
 }
 .send{
     background-color: #295FB7;
@@ -479,6 +390,9 @@ select:focus{
     margin-top: 20px;
     border: 0px;
     color: white;
+}
+.send:hover{
+    background-color: aqua;
 }
 .footer12{
     height:130px;
@@ -506,35 +420,7 @@ select:focus{
     text-align: center;
     padding-top: 20px;
 }
-.cards6:hover{
-    color: white;
-}
-.property{
-    color: blue;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.contact img{
-    padding: 5px;
-    margin-top: 7px;
-}
-.contact-info, .social-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.contact-info img, .social-info img {
-    margin-right: 10px;
-}
-#con {
-    color: white;
-}
-#con{
-    color: white;
-    margin-left: 0px;
-    padding: 5px;
-    margin-bottom: 5px;
-}
+
 
 
 @media (max-width: 425px) {
@@ -572,28 +458,19 @@ select:focus{
         text-align: center;
         justify-content: center;
     }
-    .diferent-texts {
-        display: none; 
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        background: white;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        width: 150px;
-        text-align: center;
-        border-radius: 8px;
-    }
-    .line{
-        display: none;
-    }
-    .hamburger{
-        display: block;
-    }
 
     .login, .signup {
         margin: 10px 0;
+    }
+  
+    .down-images1:hover .color1{
+       
+        margin-left: -1px;
+       
+    
+    }
+    .best{
+        font-size: 36px;
     }
 
     
@@ -604,9 +481,10 @@ select:focus{
         text-align: center;
         width: 100%; 
     }
-    .card1{
-        height: auto;
+    .line{
+        display: none;
     }
+   
   
 
     h1 {
@@ -658,6 +536,7 @@ select:focus{
         gap: 10px;
         width: 100%; 
     }
+   
 
     
     .cards-3 {
@@ -676,6 +555,7 @@ select:focus{
         width: 100%;
         margin: 10px 0;
         padding-top: 32px;
+        height: 220px;
     }
 
     
@@ -762,12 +642,5 @@ select:focus{
         text-align: center;
         padding-top: 20px;
     }
-    .head.scrolled .logo1 {
-        padding-top: 0;
-    }
-
-    .head.scrolled {
-        display: none;
-    }
-
 }
+
