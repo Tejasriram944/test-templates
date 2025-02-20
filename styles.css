@@ -1,0 +1,493 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.nav_main_box {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo_and_txt_box {
+  display: flex;
+  align-items: center;
+}
+
+.logo_box {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.property_txt {
+  font-weight: bold;
+  color: #295fb7;
+}
+
+.menu_box {
+  display: flex;
+}
+
+.home_txt {
+  margin: 0px 20px;
+  color: #2c2c2e;
+}
+
+.signup_signin_box {
+  display: flex;
+}
+
+.signup_signin_box button {
+  background: #2455a9;
+  margin-left: 5px;
+  width: 80px;
+  color: white;
+}
+
+.hero_box {
+  height: 500px;
+  width: 100%;
+}
+
+.hero_text_main_box {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.unlock_txt_box {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.browse_txt_box {
+  color: white;
+  margin: 25px 0px;
+}
+
+.form_find_box {
+  background: white;
+  display: flex;
+}
+
+.location_city_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.location_txt {
+  font-weight: bold;
+}
+
+.city_img_box {
+  display: flex;
+}
+
+.city_dropdown {
+  border: none;
+  width: 95px;
+  height: 15px;
+  font-weight: 500;
+  font-size: 10px;
+  color: #757575;
+}
+
+.price_dropdown {
+  border: none;
+  color: #757575;
+  width: 88;
+  height: 15;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.property_dropdown {
+  border: none;
+  color: #757575;
+  width: 88;
+  height: 15;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.typeHomeSearch_box {
+  margin-top: 3px;
+  padding: 0px 30px;
+}
+
+.count_box {
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+}
+
+.count1_box {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  align-items: center;
+  margin: 20px 0px;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+}
+
+.count1_img_style {
+  height: 20px;
+  width: 20px;
+}
+
+.five_hundred_txt {
+  font-size: 10px;
+}
+
+.services_main_box {
+  background: #ecf4fd;
+  display: flex;
+  justify-content: center;
+}
+
+.services_box {
+  width: 90%;
+  padding: 40px 0px;
+}
+
+.our_service_txt {
+  color: #295fb7;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.with_us_txt {
+  text-align: center;
+}
+
+.insurance_payment_process_box {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.property_insurance_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  height: 200px;
+  width: 300px;
+}
+
+.property_insurance_box:hover {
+  background: #295fb7;
+  color: #fff;
+}
+
+.property_insurance_box:hover .easy_payment_txt {
+  color: #fff;
+}
+
+.insurance_img_circle {
+  width: 50px;
+  height: 30px;
+}
+
+.Insurance_img_style {
+  height: 30px;
+  width: 30px;
+}
+
+.easy_payment_txt {
+  color: #295fb7;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+
+.easy_payment_box {
+  background: white;
+}
+
+.easyPayment_img_style {
+  background: #295fb7;
+  height: 20px;
+  width: 30px;
+}
+
+.collections_mini_box {
+  padding: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Best_Collection_box_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Best_Collection_box_heading h3 {
+  color: #2455a9;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.best_collection_all_houses {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.best_collection_house_box {
+  padding: 10px;
+  background-color: #ecf4fd;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.best_collection_house_box:hover {
+  background-color: #295fb7;
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.best_collection_house {
+  width: 300px;
+}
+
+.sell_txt {
+  color: #ffac33;
+}
+
+.more_txt {
+  color: #295fb7;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Feature_main_box {
+  padding: 50px 0;
+  background-color: #ecf4fd;
+}
+
+.Feature_mini_box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.view_all_bttn {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #295fb7;
+}
+
+.feature_img {
+  height: 450px;
+  width: 350px;
+}
+
+.feature1box,
+.feature2box,
+.feature3box {
+  position: relative;
+}
+
+.feature1box_hidden,
+.feature2box_hidden,
+.feature3box_hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  display: none;
+}
+
+.feature1box:hover .feature1box_hidden {
+  display: flex;
+}
+
+.feature1box_hidden div {
+  margin: 10px;
+}
+.feature2box:hover .feature2box_hidden {
+  display: flex;
+}
+
+.feature2box_hidden div {
+  margin: 10px;
+}
+.feature3box:hover .feature3box_hidden {
+  display: flex;
+}
+
+.feature3box_hidden div {
+  margin: 10px;
+}
+
+.left_arrow_main_box {
+  display: flex;
+  justify-content: center;
+}
+
+.left_right_arrow_box {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.left_arrow_box {
+  background: #295fb7;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.leftArrow_style {
+  height: 20px;
+  width: 20px;
+}
+
+.consultation_form_main_box {
+  display: flex;
+  justify-content: center;
+  background-image: url("Assets/question.png");
+  padding: 50px 0px;
+  background-size: contain;
+}
+
+.consultation_form_mini_box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.consultation_txt {
+  color: white;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.contact_box {
+  padding: 30px 0px;
+}
+
+.contact_txt {
+  color: white;
+  font-weight: 600;
+}
+
+.maps_txt_box {
+  display: flex;
+  margin-top: 5px;
+}
+
+.jakarta_txt {
+  color: white;
+  margin-left: 10px;
+}
+
+.form_main_box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: white;
+}
+
+.question_txt {
+  color: #2455a9;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.email_box {
+  width: 400px;
+  height: 70px;
+  background-color: #d0d0d0;
+  color: #575757;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+}
+
+.question_box {
+  width: 400px;
+  height: 160px;
+  margin-top: 20px;
+  background-color: #d0d0d0;
+  color: #575757;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+}
+
+.send_box {
+  margin-top: 20px;
+  width: 400px;
+  height: 70px;
+  background-color: #295fb7;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+}
+
+.footer_main_box {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.Copyright_txt {
+  text-align: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .insurance_payment_process_box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .best_collection_all_houses {
+    justify-content: center;
+  }
+}
