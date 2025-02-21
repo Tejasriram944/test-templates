@@ -456,7 +456,7 @@ div.fx{
     }
     .navbar{
         display:grid;
-        grid-template-columns:1fr 1fr 1fr; 
+        grid-template-columns:1fr 3fr 2fr; 
         height:30px;
         /* align-items:center; */
         padding-top: 10px;
@@ -482,7 +482,7 @@ div.fx{
         font-size: 8px;
     }
     .head10 img{
-        width:470px;
+        width:440px;
         height:600px;
     }
     .header3{
@@ -638,11 +638,11 @@ div.fx{
     }
     #header22,#header25,#header28{
         padding-top: 5px;
-        padding-left:80px;
+        padding-left:140px;
     }
     .header28,.header25{
         background-color: white;
-        padding-left: 35px;
+        padding-left: 20px;
         padding-top: 40px;
     }
     .header23,.header26,.header29{
@@ -655,6 +655,7 @@ div.fx{
         font-size: 15px;
         padding-right: 50px;
         padding-bottom: 60px;
+        padding-left: 50px;
     }
     .best4:hover,.best6:hover,.best8:hover,.best10:hover,.best12:hover,.best14:hover{
         background-color: #295FB7;
@@ -744,19 +745,19 @@ div.fx{
     #feature01{
         background-color: #295FB7;
         color:white;
-        padding:5px 3px;
+        padding:3px 2px;
         border: #295FB7;
     }
     .feature50{
-        height:365px;
-        width:310px;
+        height:300px;
+        width:250px;
     
     }
     
     .feature1:hover .feature2{
         display: block;
         position: absolute;
-        margin-left: 100px;
+        margin-left: 60px;
        
     
     }
@@ -781,7 +782,7 @@ div.fx{
     .feature{
         display: flex;
         flex-direction: column;
-        padding-left:-100px;
+        padding-left:-50px;
         padding-right: 50px;
     }
     .arrows{
@@ -895,7 +896,7 @@ div.fx{
     
       .help p {
         font-size: 14px;
-        padding-left: 75px;
+        padding-left: 30px;
       }
     
       .contact {
