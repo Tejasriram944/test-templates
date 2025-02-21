@@ -13,10 +13,16 @@
 .navbar{
     display: grid;
     padding-top: 20px;
-    grid-template-columns: 1fr 6fr 2fr;
+    grid-template-columns: 1fr 6fr 2fr 1fr;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 15px;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
 }
 img{
     padding-left: 50px;
@@ -441,7 +447,6 @@ img{
    
 }
 .collection1{
-    padding
     Width: 320px;
     height: 450px;
     background: #ECF4FD;
@@ -469,10 +474,8 @@ img{
 .section img{
     width: 20px;
     height: 20px;
-    bright
 }
 .collection2{
-    padding
     width: 320px;
     height: 450px;
     font-size:12px;
@@ -488,9 +491,6 @@ img{
 .collection0 :hover{
     background-color: #295FB7;
     color: white;
-}
-/* .collection0:hover img{
-    filter: invert(1); */
 }
 .collection2 p{
     padding-left: 10px;
@@ -661,6 +661,9 @@ img{
    align-items: center;
    padding-top: 100px;
    /* background-color:#ECF4FD ; */
+}
+.feature h4{
+    display: none;
 }
 .feature h1{
    padding-left: 160px;
@@ -980,7 +983,18 @@ div.fx{
         width: 130px;
         height: 40px;
       }
-      .navbar2 {
+      .navbar2{
+        display: none;
+      }
+      .navbar3{
+        display: none;
+      }
+      .checkbtn{
+        display: block;
+        float: right;
+        padding-left: 220px;
+      }
+      /* .navbar2 {
         flex-direction: row;
         column-gap: 10px;
         padding-left: 20px;
@@ -1001,10 +1015,10 @@ div.fx{
         width: 60px;
         font-size: 9px;
         height: 20px;
-      }
+      } */
       .hero img {
         width: 100%;
-        height: 500px;
+        height: 550px;
       }
       .unlock h1 {
         font-size: 29px;
@@ -1164,8 +1178,7 @@ div.fx{
         padding-bottom: 40px;
     }    
     .collection1{
-        padding
-        Width: 290px;
+        Width: 300px;
         height: 400px;
         background: #ECF4FD;
         font-size:12px;
@@ -1190,8 +1203,7 @@ div.fx{
         height: 20px;
     }
     .collection2{
-        padding
-        Width: 290px;
+        Width: 300px;
         height: 410px;
         background: #ECF4FD;
         font-size:12px;
@@ -1216,15 +1228,13 @@ div.fx{
         height: 20px;
     }
     .collection3{
-        padding
-        Width: 290px;
+        Width: 300px;
         height: 400px;
         background: #ECF4FD;
         font-size:12px;
-    
     }
     .collection3 img{
-        width: 310px;
+        width: 290px;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 5px;
@@ -1251,15 +1261,14 @@ div.fx{
         padding-bottom: 40px;
     }    
     .collection4{
-        padding
-        Width: 290px;
+        Width: 300px;
         height: 400px;
         background: #ECF4FD;
         font-size:12px;
     
     }
     .collection4 img{
-        width: 310px;
+        width: 290px;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 5px;
@@ -1277,15 +1286,13 @@ div.fx{
         height: 20px;
     }
     .collection5{
-        padding
-        Width: 290px;
+        Width: 300px;
         height: 410px;
         background: #ECF4FD;
         font-size:12px;
-    
     }
     .collection5 img{
-        width: 310px;
+        width: 290px;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 5px;
@@ -1303,15 +1310,13 @@ div.fx{
         height: 20px;
     }
     .collection6{
-        padding
-        Width: 290px;
+        Width: 300px;
         height: 400px;
         background: #ECF4FD;
         font-size:12px;
-    
     }
     .collection6 img{
-        width: 310px;
+        width: 290px;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 5px;
@@ -1344,6 +1349,12 @@ div.fx{
         color: #295FB7;
         font-size: 45px;
      }
+     .feature h4{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
      .feature p{
          padding-left: 40px;
     }
@@ -1370,7 +1381,7 @@ div.fx{
         height: 400px;
     }
     .img img{
-        width: 480px
+        width: 480px;
         height: 600px;
         padding-left: 0px;
         filter: brightness(0.5);
