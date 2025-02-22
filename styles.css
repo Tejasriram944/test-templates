@@ -1,0 +1,168 @@
+.card{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.leftcolumn{
+    display: flex;
+    
+}
+.leftimages{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.product-card {
+    /* width: 50%; */
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-right: 140px;
+}
+
+.product-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #555; */
+    color: #666;
+
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rating-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.star-icon {
+    width: 20px;
+    margin-right: 3px;
+}
+
+.review-text {
+    margin-left: 10px;
+    color: #888;
+}
+
+.product-description {
+    font-size: 16px;
+    /* color: #666; */
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.size-section, .color-section {
+    margin-bottom: 15px;
+}
+
+.size-options {
+    display: flex;
+    gap: 10px;
+}
+
+.size {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #F5E1C5;
+    cursor: pointer;
+}
+#size{
+    color: white;
+    background: #B8860B;
+}
+
+.color-options {
+    display: flex;
+    gap: 10px;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.quantity-section, .add-to-cart, .compare-btn {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.compare-btn {
+    background: none;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.product-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.product-meta span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.share-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    cursor: pointer;
+}
+@media  screen and (max-width:768px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .product-card{
+        margin-right: 0;
+        /* text-align: center; */
+        justify-content: center;
+        margin-left: 50%;
+    }
+}
