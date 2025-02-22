@@ -1,0 +1,27 @@
+.desc{
+    display: flex;
+    gap: 100px;
+    /* justify-content: center; */
+}
+.but{
+    background-color: #FFFFFF;
+    border: 0px;
+    color: #9F9F9F;
+}
+.but:hover{
+    color: black;
+}
+
+
+
+.but1{
+    padding-left: 350px;
+}
+
+.desc1{
+    margin-left: 200px;
+    color: #9F9F9F;
+}
+.image{
+    margin-left: 20px;
+}
