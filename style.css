@@ -1,0 +1,130 @@
+.funiro{
+    margin-top: 30px;
+    text-align: center;
+}
+.para_1{
+    color: #898989;
+    margin-bottom: 10px;
+}
+.first_image{
+    height: 340px;
+    width: 90px;
+    position: relative;
+    right:10px;
+}
+.second_image{
+    width: 340px;
+    height: 260px;
+    margin-top: 70px;
+    position: relative;
+    /* right: 10px; */
+}
+.third_image{
+    width: 240px;
+    height: 290px;
+    margin-top: 120px;
+    position: relative;
+    /* left: -10px; */
+}
+.fourth_image{
+    width: 230px;
+    height: 260px;
+    margin-top: 70px;
+    position: relative;
+    /* left: -20px;  */ 
+    
+}
+.fifth_image{
+    width: 220px;
+    height: 340px;
+    position: relative;
+    left:10px; 
+}
+.adjustment{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+} 
+.sixth_image{
+    width: 140px;
+    height:230px ;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+.seventh_image{
+    width: 290px;
+    height: 185px;
+    position: relative;
+    top: -35px;
+}
+.eight_image{
+    width: 130px;
+    height: 190px;
+    position: relative;
+    top: 10px;
+    /* left: -20px; */
+
+}
+.ninth_image{
+    width: 180px;
+    height: 130px;
+    position: relative;
+    top: -50px;
+    left: 10px; 
+}
+.parent_4{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.funiro_footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.para_2{
+    margin-bottom:20px ;
+}
+.para_3{
+    color: #898989;
+    margin-bottom: 20px;
+}
+.para_4{
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+    /* border-bottom: solid black;
+    margin-right: 15px;
+    color:#898989 ; */
+}
+::placeholder{
+    font-size: 17px;
+}
+.btn_subscribe{
+    text-decoration: underline;
+    border: none;
+    font-size: 16px;
+    margin-left: 15px;
+    background-color: white;
+}
+.para_5{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    margin-left: 50px;
+   
+}
+.email_subscribe{ 
+    display: flex;
+}
+.stright_line{
+    margin-top: 30px;
+}
+.stright_line_2{
+    margin-top: 20px;
+    width: 1050px;
+    margin-left:50px ;
+}
