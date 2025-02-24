@@ -258,3 +258,222 @@ hr {
 }
 
 /* mahesh code ends */
+
+/* krishnaveni code starts */
+
+.products{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+
+}
+.orders{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.image01,.image11,.image21,.image31{
+    width:280px;
+    height:350px;
+}
+.image04,.image25{
+    color:rgba(159, 159, 159, 1);
+}
+.show{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+.image12,.image23,.image33,.image03{
+    color:rgba(159, 159, 159, 1);
+}
+.image0,.image1,.image2,.image3{
+    background-color:#F4F5F7;
+}
+.image32,.image24,.image25,.image13,.image05,.image04{
+    padding-left: 15px;
+}
+.more{
+    color: rgba(184, 142, 47, 1);
+    /* border-color:#B88E2F; */
+    border:2px solid #B88E2F;
+    padding: 10px 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#image02{
+    position:absolute;
+    bottom:auto;
+    color:rgba(216, 216, 216, 1);
+    padding-top: 7%;
+    left:20%;
+    transform:translate(-50%,-50%);
+}
+#image22{
+    position:absolute;
+    bottom:auto;
+    color:rgba(216, 216, 216, 1);
+    padding-top: 7%;
+    left:70%;
+    transform:translate(-50%,-50%);
+}
+#image32{
+    position:absolute;
+    bottom:auto;
+    color:rgba(216, 216, 216, 1);
+    padding-top: 7%;
+    left:95%;
+    transform:translate(-50%,-50%);
+}
+.nex{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color:black;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 2fr;
+}
+#para{
+    color:rgba(159, 159, 159, 1);
+}
+.nex0{
+    margin-left: 100px;
+}
+.nex1 , .nex2{
+    color:black;
+    list-style: none;
+  
+}
+.Nex{
+    color:rgba(159, 159, 159, 1);
+}
+.last p{
+    padding-left: 60px;
+}
+.label input{
+    border:none;
+    border-bottom:1px solid;
+    border-color: black;
+}
+.label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+.label a{
+    color:black;
+}
+@media (max-width:500px){
+    .products{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: #FFFFFF;
+    
+    }
+    .orders{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+        padding: 40px;
+    }
+    .image01,.image11,.image21,.image31{
+        width:280px;
+        height:350px;
+    }
+    .image04,.image25{
+        color:rgba(159, 159, 159, 1);
+    }
+    .show{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .image12,.image23,.image33,.image03{
+        color:rgba(159, 159, 159, 1);
+    }
+    .image0,.image1,.image2,.image3{
+        background-color:#F4F5F7;
+    }
+    .image32,.image24,.image25,.image13,.image05,.image04{
+        padding-left: 15px;
+    }
+    .more{
+        color: rgba(184, 142, 47, 1);
+        /* border-color:#B88E2F; */
+        border:2px solid #B88E2F;
+        padding: 10px 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #image02{
+        position:absolute;
+        bottom:auto;
+        color:rgba(216, 216, 216, 1);
+        padding-top: 20%;
+        left:75%;
+        transform:translate(-50%,-50%);
+    }
+    #image22{
+        position:absolute;
+        bottom:auto;
+        color:rgba(216, 216, 216, 1);
+        padding-top: 20%;
+        left:75%;
+        transform:translate(-50%,-50%);
+    }
+    #image32{
+        position:absolute;
+        bottom:auto;
+        color:rgba(216, 216, 216, 1);
+        padding-top: 20%;
+        left:75%;
+        transform:translate(-50%,-50%);
+    }
+    .nex{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        color:black;
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    #para{
+        color:rgba(159, 159, 159, 1);
+    }
+    .nex0{
+        margin-left: 100px;
+    }
+    .nex1 , .nex2{
+        color:black;
+        list-style: none;
+        padding-left: 90px;
+      
+    }
+    .nex3{
+        padding-left: 90px;
+    }
+    .Nex{
+        color:rgba(159, 159, 159, 1);
+    }
+    .last p{
+        padding-left: 60px;
+    }
+    .label input{
+        border:none;
+        border-bottom:1px solid;
+        border-color: black;
+    }
+    .label{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .label a{
+        color:black;
+    }
+}
+
+/* krishnaveni code ends */
