@@ -1,3 +1,60 @@
+/* naresh code starts here  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conatinar-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.home-bar{
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+
+}
+.home-icon{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+.container-2{
+    display: flex;
+    height: 100px;
+    background-color: #F9F1E7;
+    align-items: center;
+}
+.sidebar-discrip{
+    width:48px;
+    height:24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    margin-left: 100px;
+}
+.sidebar-discrip1{
+    width:48px;
+    height:24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    margin-left: 20px;
+}
+.sidebar-discrip2{
+    width:108px;
+    height:29px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 20px;
+    padding-left: 25px;
+    font-family: Poppins;
+    border-left: solid #9F9F9F ;
+}
+/* naresh code ends here  */
 .card{
     display: grid;
     grid-template-columns: 6fr 6fr;
