@@ -129,8 +129,8 @@ div.absolute {
         flex-direction: column;
         position: absolute;
         top: 190px;
-        left: 160px;
-        width: 260px;
+        left: 10px;
+        width: 240px;
         height: 220px;
         border: 25px solid rgb(255, 236, 212);
         background-color: rgb(255, 236, 212);
@@ -158,7 +158,7 @@ div.absolute {
         border: none;
     }
 }
-    
+
 /*----------dinesh styles----*/
 
 .titletext h2 {
@@ -169,8 +169,9 @@ div.absolute {
     justify-content: center;
     color: #333333;
     margin-bottom: 0px;
-    }
-    .titletext p {
+}
+
+.titletext p {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -178,65 +179,53 @@ div.absolute {
     display: flex;
     justify-content: center;
     color: #666666;
-    }
-    .imagesection {
-        display: flex;
-        margin-left: 20px;
-        gap: 10px;
-        flex-wrap: wrap;
-      }
-      
-      .image-container1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-      
-      .images {
-      width: 381px;
+}
+
+.imagesection {
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.images {
+    width: 381px;
     height: 480px;
-      }
-      
-      .image-title {
-        margin-top: 8px;
-        color:#333333;
+}
+
+.image-title {
+    margin-top: 8px;
+    color: #333333;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    
-      }
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*------------------------------products section-------------------------------------------------------*/
-  
-  
-  
-  
-  
-  
-  .products,
-  .products1 {
+
+}
+
+/*------------------------------products section-------------------------------------------------------*/
+
+.products,
+.products1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-  }
-  .products1{
+}
+
+.products1 {
     padding-top: 70px;
-  }
-  .card {
+}
+
+.card {
     position: relative;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -244,19 +233,23 @@ div.absolute {
     object-fit: cover;
     margin-left: 5px;
     transition: transform 0.3s ease-in-out;
-  }
-  .card:hover {
+}
+
+.card:hover {
     transform: scale(1.05);
-  }
-  .image-container {
+}
+
+.image-container {
     position: relative;
-  }
-  .image-container img {
+}
+
+.image-container img {
     width: 100%;
     display: block;
-  }
-  .discount,
-  .discount1 {
+}
+
+.discount,
+.discount1 {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -266,60 +259,68 @@ div.absolute {
     border-radius: 50%;
     font-size: 14px;
     font-weight: bold;
-  }
-  .discount1 {
+}
+
+.discount1 {
     background: #2ec1ac;
-  }
-  .content {
+}
+
+.content {
     padding: 15px;
-  }
-  .producttitle {
+}
+
+.producttitle {
     color: #3a3a3a;
     font-size: 24px;
     font-weight: 600;
-  }
-  .productsubtitle {
+}
+
+.productsubtitle {
     color: #898989;
     font-size: 16px;
     font-weight: 500;
     margin-top: 5px;
-  }
-  .price {
+}
+
+.price {
     margin-top: 10px;
     color: #3a3a3a;
     font-size: 20px;
     font-weight: 600;
-  }
-  .original-price {
+}
+
+.original-price {
     font-weight: 400;
     color: #b0b0b0;
     text-decoration: line-through;
     margin-left: 10px;
     font-size: 16px;
-  }
-  .title3 {
+}
+
+.title3 {
     display: flex;
     justify-content: center;
     font-size: 40px;
     font-weight: 700;
     color: #3a3a3a;
     margin-bottom: 20px;
-  }
-  .show-more {
+}
+
+.show-more {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-  background-color:white;
-    color:#B88E2F;
-    border-color:#b88e2f ;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
+    color: #B88E2F;
+    border-color: #b88e2f;
     border-radius: 10px;
     text-align: center;
 }
- 
-  .overlay {
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -331,120 +332,140 @@ line-height: 24px;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-  }
-  .card:hover .overlay {
+}
+
+.card:hover .overlay {
     opacity: 1;
-  }
-  .overlay-text {
+}
+
+.overlay-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-  }
-  .social_icons {
+}
+
+.social_icons {
     margin-top: 10px;
     display: flex;
     gap: 20px;
-  }
-  .social_icons div{
-    color: white;
-  }
+}
 
-  .cart {
+.social_icons div {
+    color: white;
+}
+
+.cart {
     background-color: white;
     color: #b88e2f;
     border: none;
     text-align: center;
-    width:150px;
+    width: 150px;
     padding: 12px 20px;
     font-size: 16px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+}
 
 
 
 
 
-  
 
 
 
-  @media (max-width: 768px) {
+
+@media (max-width: 768px) {
     .imagesection {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
-    .products, .products1 {
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-  
-    .card {
-      width: 100%;
-    }
-  
-    .titletext h2 {
-      font-size: 20px;
-    }
-  
-    .show-more {
-      width: 100%;
-      padding: 15px;
-    }
-  }
-  
-  @media (max-width: 480px) {
 
-    .products, .products1.imagesection {
-      grid-template-columns: 1fr; 
+    .products,
+    .products1 {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-  
+
     .card {
-      margin-bottom: 10px;
+        width: 100%;
     }
-  
-  }
-  /* diensh end */
+
+    .titletext h2 {
+        font-size: 20px;
+    }
+
+    .show-more {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .products,
+    .products1.imagesection {
+        grid-template-columns: 1fr;
+    }
+
+    .images {
+        width: 340px;
+        height: 450px;
+        position: relative;
+        left:-5px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+}
+
+/* diensh end */
 /* harish code start */
-.inspiration{
-    height:450px;
-    width:100%;
+.inspiration {
+    height: 450px;
+    width: 100%;
     background-color: #FCF8F3;
     display: flex;
 }
-.card-beautiful{
+
+.card-beautiful {
     padding-top: 90px;
     padding-left: 73px;
     margin-right: 60px;
     margin-left: 50px;
 }
-.beautiful{
+
+.beautiful {
     font-size: 36px;
 }
-.our{
+
+.our {
     font-weight: 500;
 }
-.explore{
-    height:30px;
+
+.explore {
+    height: 30px;
     width: 110px;
     background-color: #B88E2F;
-    color:white;
+    color: white;
     border: 0px;
     text-align: center;
 
 }
-.image-beautiful{
+
+.image-beautiful {
     height: 360px;
-    width:280px;
+    width: 280px;
     margin-left: 100px;
     margin-top: 40px;
     position: relative;
 }
-.box{
-    height:90px;
-    width:150px;
-     backdrop-filter: blur(32px);
+
+.box {
+    height: 90px;
+    width: 150px;
+    backdrop-filter: blur(32px);
     margin-top: -110px;
     margin-left: 110px;
     background-color: white;
@@ -452,105 +473,120 @@ line-height: 24px;
     padding-top: 10px;
     opacity: 72%;
 }
-.bed-room{
+
+.bed-room {
     font-size: 13px;
     padding-bottom: 5px;
 }
-.inner-peace{
+
+.inner-peace {
     font-weight: bold;
     font-size: 20px;
 }
-.arrow-right{
-    height:35px;
-    width:40px;
+
+.arrow-right {
+    height: 35px;
+    width: 40px;
     margin-left: 75px;
     margin-top: -40px;
     position: absolute;
-    
+
 }
-.rectangle-25{
-    height:300px;
+
+.rectangle-25 {
+    height: 300px;
     width: 240px;
     margin-left: 40px;
     margin-top: 40px;
     margin-right: 20px;
     position: relative;
 }
-.group-13{
+
+.group-13 {
     height: 50px;
-    width:50px;
+    width: 50px;
     position: absolute;
     margin-top: 200px;
     margin-left: -35px;
-    
+
 }
-.indicator{
-    height:20px;
-    width:60px;
+
+.indicator {
+    height: 20px;
+    width: 60px;
     margin-top: 360px;
     margin-left: -260px;
 }
-.rectangle-26{
+
+.rectangle-26 {
     height: 300px;
-    width:60px;
+    width: 60px;
     margin-left: 27px;
     margin-top: 40px;
 }
 
-@media (max-width:430px){
-    *{
+@media (max-width:500px) {
+    * {
         padding: 0px;
         margin: 0px;
     }
-    .inspiration{
+
+    .inspiration {
         display: flex;
         flex-direction: column;
-        height:min-content;
+        height: min-content;
         width: min-content;
     }
-    .card-beautiful{
+
+    .card-beautiful {
         padding-top: 0px;
         padding-left: 0px;
         margin-right: 0px;
         margin-left: 0px;
         text-align: center;
     }
-    .rectangle-26{
+
+    .rectangle-26 {
         height: 300px;
-        width:40px;
+        width: 40px;
         /* margin-right: -40px; */
         /* margin-top: -370px; */
         margin-left: 320px;
         margin-top: -470px;
 
     }
-    .second-part{
-     margin-left: -60px;   
+
+    .second-part {
+        margin-left: -60px;
     }
-    .arrow-right{
-        height:35px;
-        width:40px;
+
+    .arrow-right {
+        height: 35px;
+        width: 40px;
         margin-left: 75px;
         margin-top: 12px;
         position: absolute;
-        
+
     }
-    .group-13{
-    height: 50px;
-    width:50px;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: -35px;
-    
+
+    .group-13 {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -35px;
+
+    }
+
+    .indicator {
+        height: 20px;
+        width: 60px;
+        margin-top: 0px;
+        margin-left: 35px;
+    }
+
 }
-.indicator{
-    height:20px;
-    width:60px;
-    margin-top: 0px;
-    margin-left: 35px;
-}
-    
-}
+
 /* harish code end */
 
 /* varma code start */
@@ -764,7 +800,7 @@ line-height: 24px;
     padding: 30px 10px;
 }
 
-@media (max-width:430px) {
+@media (max-width:500px) {
     .funiro_furniture_head p {
         color: #616161;
         font-weight: 600;
@@ -1081,7 +1117,7 @@ line-height: 24px;
     }
 }
 
-@media (min-width:431px) and (max-width:900px) {
+@media (min-width:501px) and (max-width:900px) {
     .funiro_furniture_head p {
         color: #616161;
         font-weight: 600;
