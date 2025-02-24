@@ -141,3 +141,250 @@ div.absolute{
     }
 }
     
+/*----------dinesh styles----*/
+
+.titletext h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    margin-bottom: 0px;
+    }
+    .titletext p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    }
+    .imagesection {
+        display: flex;
+        margin-left: 20px;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      
+      .image-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .images {
+      width: 381px;
+    height: 480px;
+      }
+      
+      .image-title {
+        margin-top: 8px;
+        color:#333333;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+      }
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*------------------------------products section-------------------------------------------------------*/
+  
+  
+  
+  
+  
+  
+  .products,
+  .products1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .products1{
+    padding-top: 70px;
+  }
+  .card {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: white;
+    object-fit: cover;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .image-container {
+    position: relative;
+  }
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+  .discount,
+  .discount1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff5a5f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .discount1 {
+    background: #2ec1ac;
+  }
+  .content {
+    padding: 15px;
+  }
+  .producttitle {
+    color: #3a3a3a;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .productsubtitle {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  .price {
+    margin-top: 10px;
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .original-price {
+    font-weight: 400;
+    color: #b0b0b0;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .title3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+  }
+  .show-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+  background-color:white;
+    color:#B88E2F;
+    border-color:#b88e2f ;
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .social_icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  .social_icons div{
+    color: white;
+  }
+
+  .cart {
+    background-color: white;
+    color: #b88e2f;
+    border: none;
+    text-align: center;
+    width:150px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+  
+
+
+
+  @media (max-width: 768px) {
+    .imagesection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .products, .products1 {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .titletext h2 {
+      font-size: 20px;
+    }
+  
+    .show-more {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+    .products, .products1.imagesection {
+      grid-template-columns: 1fr; 
+    }
+  
+    .card {
+      margin-bottom: 10px;
+    }
+  
+  }
+  /* diensh end */
