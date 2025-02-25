@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+}
+.header_section{
+    background-color:#F5F7FA;
+    height: max-content;
+    
+}
+.nav_icon{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    column-gap: 10px;
+    align-content: center;
+    padding: 0px 80px;
+}
+.logo{
+    display: flex;
+    text-decoration: none;
+    height: 25px;
+    padding-left: 10px;
+   
+}
+.nav_header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_header a{
+    text-decoration: none;
+    color: rgba(1, 15, 1, 0.653);
+
+}
+.nav_header a:hover{
+    text-decoration:solid underline rgb(9, 208, 9) 2px ;
+    color: black;
+
+}
+.login_section{
+    padding-left: 30px;
+}
+.login,.sign_up:hover{
+    background-color: white;
+    color: rgb(9, 208, 9);
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.sign_up,.login:hover{
+    background-color: rgb(9, 208, 9);
+    color: white;
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.nav_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    margin: 50px 45px 0px 50px;
+    padding-bottom: 40px;
+}
+.nav_block_content{
+    padding-left: 90px;
+
+}
+.nav_block_content p{
+    color:rgba(1, 15, 1, 0.653);
+    font-size:small;
+
+}
+.nav_block_circle{
+    font-size:50px;
+    font-weight:500;
+}
+.nav_block_group{
+    color:rgb(9, 208, 9);
+    font-size:50px;
+    font-weight:500;
+
+}
+.register{
+    background-color: rgb(9, 208, 9);
+    color: white;
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register:hover{
+    background-color: white;
+    color: rgb(9, 208, 9);
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clients_team{
+    margin: 30px 0px;
+}
+.client_teams{
+    text-align: center;
+}
+.client_teams1{
+    text-align: center;
+    font-size: small;
+}
+
+.clients_team_icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.manage_entire{
+    text-align: center;
+}
+.nextcent_suitable{
+    text-align: center;
+    font-size:small;
+}
+.manage_system{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+.manage_system_data h5,h3{
+    text-align: center;
+}
+.manage_system_icon{
+    display: flex;
+    justify-content: center;
+}
+.unlock_counter{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin:0px 100px;
+}
+.frame_35{
+    padding-left: 50px;
+}
+.unclock_data{
+    padding: 30px 80px ;
+}
+.unclock_data h2{
+    color:rgba(53, 53, 53, 0.9) ;
+}
+.unclock_data p{
+    color:rgba(86, 86, 86, 0.8);
+    margin: 10px 0px;
+}
+.learn_more{
+    background-color: rgb(9, 208, 9);
+    color: white;
+    width: 110px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.learn_more:hover{
+    background-color: white;
+    color: rgb(9, 208, 9);
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.achivement_block{
+    background-color:#F5F7FA ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:30px 150px;
+    /* padding: 30px 0px; */
+}
+.section_heading{
+    align-content: center;
+}
+.section_heading1{
+    color:rgba(53, 53, 53, 0.9) ;
+}
+.section_heading2{
+    color: rgb(9, 208, 9);
+    margin: 5px 0px
+}
+.section_heading p{
+    color:rgba(86, 86, 86, 0.8);
+}
+.counts{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    margin: 0px;
+
+}
+.count_block{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.count_icon_details h3{
+    color:rgba(53, 53, 53, 0.9) ;
+}
+.count_icon_details h5{
+    color:rgba(86, 86, 86, 0.8);
+}
+.calender_clock{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    padding:40px 100px;
+}
+.calender_data{
+    padding: 30px 60px ;
+}
+.calender_data h2 {
+  color:  rgba(53, 53, 53, 0.9);
+}
+.calender_data p{
+  color:  rgba(86, 86, 86, 0.8);
+  margin: 10px 0px;
+}
+.customer_carrier{
+    background-color:#F5F7FA;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 20px;
+    padding:10px 100px;
+
+}
+.customer_dart1{
+    color:rgba(86, 86, 86, 0.8);
+    margin: 10px 0px;
+}
+.product_dart,.customer_dart{
+    padding-top: 15px;
+}
+.customer_dart_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer_dart h4{
+  color:  rgb(9, 208, 9);
+  margin: 10px 0px
+}
+.customer_dart p{
+    color:rgba(86, 86, 86, 0.8);
+    margin: 10px 0px;
+}
+.right_arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get{
+    margin: 20px ;
+}
+.demo{
+    display: flex;
+    justify-content: center;
+}
+.demo button{
+    padding:10px 20px;
+    background-color: #4CAF4F;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    align-content: center;    
+    
+}
+.market_join{
+    margin:30px  0px 250px 0px; ;
+    height:max max-content;
+
+    
+}
+.market_text h2 ,.market_text p,.manage_system_data h3,.manage_system_data p {
+    text-align: center;
+}
+.manage_system_data p{
+    color:rgba(86, 86, 86, 0.8);
+}
+.market_text h2{
+    color:rgba(53, 53, 53, 0.9) ;
+}
+.market_text p{
+    color:rgba(86, 86, 86, 0.8);
+    margin: 10px 0px;
+}
+.market_image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px 50px;
+}
+.community_frame_text{
+    height: 120px;
+    width: 240px;
+    background-color: white;
+    padding: 15px 10px 0px 10px;
+    border-radius: 5px;
+    position:relative;
+    left: 15px;
+    top: 200px;
+    box-shadow: 0px 0px 1px 2px rgba(74, 74, 74, 0.13);
+
+}
+.community_frame_image{
+    position: absolute;
+
+}
+.community_frame_text h5{
+    text-align: center;
+}
+.community_right_arrow{
+    display: flex;
+    justify-content: center;
+}
+.footer_page{
+    background-color: #232F3E;
+    display: grid;
+    grid-template-columns: 2.8fr 1fr 1fr 1.7fr;
+    padding: 60px 150px;
+    color: white;
+}
+.nexcent_logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.nexcent_logo a ,.footer_page1 a{
+   color: white;
+   text-decoration: none;
+}
+.company_data p{
+    font-size: x-small;
+}
+.social_media_images img{
+   height: 25px;
+   margin: 20px 0px 0px 7px ;
+}
+.footer_page1 p,.Nexcent{
+   margin: 10px 0px;
+}
+.footer_page1 a{
+    font-size: small;
+}
+.search{
+    border: none;
+    background-color:#7373748f;
+    height: 35px;
+    color: #f51212;
+    border-radius: 5px 0px 0px 5px;
+}
+.search_update{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Vector{
+    background-color:#7373748f;
+    padding: 8.5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
