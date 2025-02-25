@@ -1,0 +1,635 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.nav_bar {
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding: 0px;
+}
+
+.nav_bar_1 {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+}
+
+.nav_bar_1 img {
+  height: 38px;
+  width: 35px;
+}
+
+.furniro_name {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+.nav_bar_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.nav_bar_2 a {
+  text-decoration: none;
+  color: #000000;
+  font-size: larger;
+}
+
+.nav_bar_3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.header_contact {
+  background-image: url(./assests/Rectangle_1.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+  height: 320px;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 25%;
+}
+
+.header_content h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.header_contact_1 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.Home_text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact_text {
+  font-weight: 200;
+  font-size: 16px;
+  color: #000000;
+}
+
+.content_block {
+  align-items: center;
+  margin: 5% 0%;
+}
+
+.content_block h1 {
+  text-align: center;
+}
+
+.content_block p {
+  text-align: center;
+  line-height: 25px;
+}
+
+.mainform {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 2% 10%;
+}
+
+.contact_block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 15%;
+}
+
+.contact_content {
+  display: flex;
+  gap: 20px;
+}
+
+.contact_content img {
+  height: 25px;
+  width: 25px;
+}
+
+.addres_content h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.addres_content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form_block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.name p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text_block {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 3% 0%;
+}
+
+::placeholder {
+  color: #9F9F9F;
+}
+
+.message_block {
+  width: 100%;
+  height: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 3% 0%;
+}
+
+.button_submit button {
+  border: none;
+  border-radius: 5px;
+  background-color: #b88e2f;
+  color: white;
+  padding: 3% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 4%;
+  cursor: pointer;
+}
+
+@media (max-width:430px) {
+  .nav_bar {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 5%;
+    margin: 2% 0%;
+  }
+
+  .nav_bar_1 {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    justify-content: center;
+  }
+
+  .nav_bar_1 img {
+    height: 20px;
+    width: 25px;
+  }
+
+  .furniro_name {
+    text-decoration: none;
+    color: black;
+    padding-left: 3px;
+  }
+
+  .nav_bar_1 h1 {
+    font-size: small;
+  }
+
+  .nav_bar_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 5px;
+  }
+
+  .nav_bar_2 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: smaller;
+  }
+
+  .nav_bar_3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0px;
+    gap: 5px;
+  }
+
+  .nav_bar_3 img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .header_contact {
+    background-image: url(./assests/Rectangle_1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    height: max-content;
+    padding: 20px 0px;
+  }
+
+  .header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0%;
+  }
+
+  .header_content img {
+    width: 20px;
+    height: 15px;
+  }
+
+  .header_content h1 {
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .header_contact_1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .header_contact_1 img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .Home_text {
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .contact_text {
+    font-weight: 200;
+    font-size: 10px;
+    color: #000000;
+  }
+
+  .content_block {
+    margin: 5%;
+  }
+
+  .content_block h1 {
+    text-align: center;
+    font-size: medium;
+  }
+
+  .content_block p {
+    text-align: center;
+    line-height: 15px;
+    font-size: x-small;
+  }
+
+  .mainform {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+  }
+
+  .contact_block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0%;
+  }
+
+  .contact_content {
+    display: flex;
+    gap: 10px;
+  }
+
+  .contact_content img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .addres_content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .addres_content p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .form_block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 15% 0px;
+  }
+
+  .name p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .text_block {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 3% 0%;
+  }
+
+  ::placeholder {
+    color: #9F9F9F;
+  }
+
+  .message_block {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 3% 0%;
+  }
+
+  .button_submit button {
+    border: none;
+    border-radius: 5px;
+    background-color: #b88e2f;
+    color: white;
+    padding: 3% 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4%;
+    cursor: pointer;
+  }
+}
+
+@media (min-width:431px) and (max-width:830px) {
+  .nav_bar {
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 2% 0px;
+  }
+
+  .nav_bar_1 {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    justify-content: center;
+  }
+
+  .nav_bar_1 img {
+    height: 20px;
+    width: 25px;
+  }
+
+  .furniro_name {
+    text-decoration: none;
+    color: black;
+    padding-left: 3px;
+    font-size: small;
+  }
+
+  .nav_bar_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+  }
+
+  .nav_bar_2 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: small;
+  }
+
+  .nav_bar_2 a:hover {
+    text-decoration: solid underline #b88e2f 2px;
+    color: #666666;
+  }
+
+  .nav_bar_3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0px;
+    gap: 5px;
+  }
+
+  .nav_bar_3 img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .header_contact {
+    background-image: url(./assests/Rectangle_1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    height: 150px;
+    padding: 0px 0px;
+  }
+
+  .header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20%;
+  }
+
+  .header_content img {
+    width: 35px;
+    height: 30px;
+  }
+
+  .header_content h1 {
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .header_contact_1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .header_contact_1 img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .Home_text,
+  .contact_text:hover {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .contact_text,
+  .Home_text:hover {
+    font-weight: 200;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .content_block {
+    margin: 5%;
+  }
+
+  .content_block h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .content_block p {
+    text-align: center;
+    line-height: 20px;
+    font-size: small;
+  }
+
+  .mainform {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 2% 10%;
+  }
+
+  .contact_block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0%;
+  }
+
+  .contact_content {
+    display: flex;
+    gap: 10px;
+  }
+
+  .contact_content img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .addres_content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .addres_content p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .form_block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .name p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .text_block {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 3% 0%;
+  }
+
+  ::placeholder {
+    color: #9F9F9F;
+  }
+
+  .message_block {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 3% 0%;
+  }
+
+  .button_submit button {
+    border: none;
+    border-radius: 5px;
+    background-color: #b88e2f;
+    color: white;
+    padding: 3% 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4%;
+    cursor: pointer;
+  }
+}
