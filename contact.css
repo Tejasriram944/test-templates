@@ -633,3 +633,419 @@ a {
     cursor: pointer;
   }
 }
+
+/* krishna css code */
+* {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+
+.Frame-161 {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  height: max-content;
+  padding: 10% 0px;
+  align-items: center;
+  background-color: #FAF3EA;
+}
+
+
+.ff-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ff-t h1{
+  font-size: 24px;
+}
+
+
+.ff-t p {
+  line-height: 25px;
+  color: #898989;
+  margin-top: 0%;
+}
+.fot-11 h1 {
+  margin-bottom: 30px;
+}
+
+.fot-11 p {
+  color: #9F9F9F;
+}
+
+.fot-12 h2 {
+  color: #9F9F9F;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.fc p {
+  margin: 40px 0px;
+}
+
+.fot-12 input {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0%;
+  margin-top: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.fot-12 button {
+  border: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fot-122 {
+  display: flex;
+}
+
+.fot-1 {
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  column-gap: 30px;
+      
+  padding: 4% 8%;
+  margin-top: 3%;
+  border-top: 1px solid #9F9F9F;
+
+}
+
+.fot-2 {
+
+  font-weight: 400;
+  padding-top: 3%;
+  margin: 0px 90px;
+  border-top: 1px solid #9F9F9F;
+}
+
+
+@media (max-width:430px){
+  .Frame-161 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+      padding: 5% 30px;
+
+      gap: 40px;
+      height: max-content;
+  
+      background-color: #FAF3EA;
+  }
+  
+  
+  .ff-1 {
+      display: flex;
+      justify-content: flex-start;
+      align-items:none;
+      gap: 10px;
+  }
+  
+  .ff-1m img{
+      height: 40px;
+      width: 35px;
+  }
+  .ff-t h1{
+      font-size: 16px;
+      margin: 5px 0px;
+  }
+  
+  
+  .ff-t p {
+      font-size: small;
+      line-height: 14px;
+      
+      color: #898989;
+      margin-top: 0%;
+  }
+  
+  .fot-11 h1 {
+      margin-bottom: 30px;
+  }
+  
+  .fot-11 p {
+      /* font-size: x-small; */
+      color: #9F9F9F;
+  }
+  
+  .fot-12 h2 {
+      color: #9F9F9F;
+      font-size: large;
+      font-weight: 500;
+      margin-bottom: 24px;
+  }
+  
+  .fc p {
+      margin: 20px 0px;
+  }
+  
+  .fot-12 input {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 0%;
+      margin-top: 16px;
+      border: none;
+      border-bottom: 1px solid black;
+  }
+  
+  .fot-12 button {
+      border: none;
+      border-bottom: 1px solid black;
+      cursor: pointer;
+      background: none;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .fot-122 {
+      display: flex;
+  }
+  
+  .fot-1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+      padding: 4% 15%;
+      margin-top: 3%;
+      gap: 30px;
+      border-top: 1px solid #9F9F9F;
+  
+  }
+  
+  .fot-2 {
+  
+      font-weight: 400;
+      padding-top: 3%;
+      margin: 0px 90px;
+      border-top: 1px solid #9F9F9F;
+  }
+
+}
+
+@media (min-width:431px) and (max-width:1030px){
+  .Frame-161 {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      gap: 20px;
+      height: max-content;
+      padding: 10% 10px;
+      
+      align-items: center;
+      background-color: #FAF3EA;
+  }
+  
+  
+  .ff-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .ff-1m img{
+      height: 40px;
+      width: 35px;
+  }
+  .ff-t h1{
+      font-size: 16px;
+      margin: 5px 0px;
+  }
+  
+  
+  .ff-t p {
+      font-size: small;
+      line-height: 14px;
+      
+      color: #898989;
+      margin-top: 0%;
+  }
+  .fot-11 h1 {
+      margin-bottom: 30px;
+  }
+  
+  .fot-11 p {
+      color: #9F9F9F;
+  }
+  
+  .fot-12 h2 {
+      color: #9F9F9F;
+      font-size: large;
+      font-weight: 500;
+      margin-bottom: 24px;
+  }
+  
+  .fc p {
+      margin: 40px 0px;
+  }
+  
+  .fot-12 input {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 0%;
+      margin-top: 16px;
+      border: none;
+      border-bottom: 1px solid black;
+  }
+  
+  .fot-12 button {
+      border: none;
+      border-bottom: 1px solid black;
+      cursor: pointer;
+      background: none;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .fot-122 {
+      display: flex;
+  }
+  
+  .fot-1 {
+      display: grid;
+      grid-template-columns: repeat(4,auto);
+      padding: 4% ;
+      margin-top: 3%;
+      border-top: 1px solid #9F9F9F;
+  
+  }
+  
+  .fot-2 {
+  
+      font-weight: 400;
+      padding-top: 3%;
+      margin: 0px 90px;
+      border-top: 1px solid #9F9F9F;
+  }
+  
+}
+@media (min-width:1450px) {
+  .Frame-161 {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      gap: 20px;
+      height: max-content;
+      align-items: center;
+      background-color: #FAF3EA;
+      padding: 8% 4%;
+  }
+  
+  
+  .ff-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .ff-1m img{
+      width: 100px;
+      height: 120px;
+  }
+  .ff-t h1{
+      font-size: 50px;
+      margin-bottom: 10px;
+  }
+  
+  
+  .ff-t p {
+      font-size: 34px;
+      line-height: 25px;
+      color: #898989;
+      margin-top: 0%;
+  }
+  .fot-11 h1 {
+      font-size: 45px;
+      margin-bottom: 30px;
+  }
+  
+  .fot-11 p {
+      font-size: 30px;
+      color: #9F9F9F;
+  }
+  
+  .fot-12 h2 {
+      font-size: 30px;
+      color: #9F9F9F;
+      font-weight: 500;
+      margin-bottom: 24px;
+  }
+  
+  .fc h2{
+      font-size: 30px;
+  }
+  .fc p {
+      font-size: 30px;
+      margin: 30px 0px;
+  }
+  
+  .fot-12 input {
+      font-weight: 500;
+      font-size: 30px;
+      margin-bottom: 0%;
+      margin-top: 16px;
+      border: none;
+      border-bottom: 1px solid black;
+  }
+  
+  .fot-12 button {
+      font-size: 30px;
+      border: none;
+      border-bottom: 1px solid black;
+      cursor: pointer;
+      background: none;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .fot-122 {
+      display: flex;
+  }
+  
+  .fot-1 {
+      display: grid;
+      grid-template-columns: repeat(4,auto);
+      column-gap: 30px;
+          
+      padding: 4% 8%;
+      margin-top: 3%;
+      border-top: 1px solid #9F9F9F;
+  
+  }
+  
+  .fot-2 {
+      font-size:30px ;
+      font-weight: 400;
+      padding-top: 3%;
+      margin: 0px 90px;
+      border-top: 1px solid #9F9F9F;
+  }
+  
+
+}
+
+/* krishna css code end */
