@@ -1,43 +1,403 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Homepage</title>
-        <link rel="stylesheet" href="homepage.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    </head>
-    <body>
-        <div class="heading">
-            <div class="logo">
-                <img src="./Assets/houselogo.png" alt="logo">
-            </div>
-            <div class="navbar">
-                <p><a href="#">Home</a></p>
-                <p><a href="#">Shop</a></p>
-                <p><a href="#">About</a></p>
-                <p><a href="#">Contact</a></p>
-            </div>
-            <div class="icon">
-                <img src="./Assets/contactlogo.png">
-                <img src="./Assets/searchlogo.png">
-                <img src="./Assets/heartlogo.png">
-                <img src="./Assets/cartlogo.png">
+
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="heading">
+        <div class="logo">
+            <img src="./Assets/houselogo.png" alt="logo">
+        </div>
+        <div class="navbar">
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Shop</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Contact</a></p>
+        </div>
+        <div class="icon">
+            <img src="./Assets/contactlogo.png">
+            <img src="./Assets/searchlogo.png">
+            <img src="./Assets/heartlogo.png">
+            <img src="./Assets/cartlogo.png">
+        </div>
+        <div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="relative">
+            <img src="./Assets/img1.png" alt="hall">
+        </div>
+        <div class="absolute">
+            <div>
+                <p><b>New Arrival</b></p1>
             </div>
             <div>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
+                <h1>Discover Our<br />New Collection</h1>
             </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Ut tellus nec tellus,luctus nec ullamcorper
+                    mattis.</p><br /><br /><br />
+            </div>
+            <button class="buy">BUY NOW</button>
         </div>
-        <div class="banner">
-            <div class="relative">
-                <img src="./Assets/img1.png" alt="hall">
+            <!-- /*------dinesh code----*/ -->
+            <section>
+                <div class="titletext">
+                  <h2>Browse the Range</h2>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                </div>
+                <div class="imagesection">
+                    <div class="image-container1">
+                      <img src="./Assets/image 106.png" class="images" alt="Dining" />
+                      <p class="image-title">Dining</p>
+                    </div>
+                    <div class="image-container1">
+                      <img src="./Assets/image 100.png" class="images" alt="Living" />
+                      <p class="image-title">Living</p>
+                    </div>
+                    <div class="image-container1">
+                      <img src="./Assets/image 101.png" class="images" alt="Bedroom" />
+                      <p class="image-title">Bedroom</p>
+                    </div>
+                  </div>          
+              </section>
+            
+              <section>
+                <div class="title3">Our Products</div>
+                <div class="products">
+                  <div class="card">
+                    <div class="image-container">
+                      <img
+                        src="./Assets/Images.png"
+                        alt="Syltherine Stylish Cafe Chair"
+                      />
+                      <div class="discount">-30%</div>
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Syltherine</div>
+                      <div class="productsubtitle">Stylish cafe chair</div>
+                      <div class="price">
+                        Rp 2.500.000 <span class="original-price">Rp 3.500.000</span>
+                      </div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="image-container">
+                      <img src="./assets/Images (1).png" alt="leviosa" />
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Leviosa</div>
+                      <div class="productsubtitle">Stylish cafe chair</div>
+                      <div class="price">Rp 2.500.000</div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="image-container">
+                      <img
+                        src="./Assets/image 3.png"
+                        alt="Syltherine Stylish Cafe Chair"
+                      />
+                      <div class="discount">-50%</div>
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Lolito</div>
+                      <div class="productsubtitle">Luxury big sofa</div>
+                      <div class="price">
+                        Rp 7.500.000 <span class="original-price">Rp 14.000.000</span>
+                      </div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="image-container">
+                      <img
+                        src="./Assets/Images (3).png"
+                        alt="Outdoor bar table and stool"
+                      />
+                      <div class="discount1">New</div>
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Respira</div>
+                      <div class="productsubtitle">Outdoor bar table and stool</div>
+                      <div class="price">Rp 500.000</div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="products1">
+                  <div class="card">
+                    <div class="image-container">
+                      <img src="./Assets/Images (4).png" alt="Grifo" />
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Grifo</div>
+                      <div class="productsubtitle">Night lamp</div>
+                      <div class="price">Rp 1.500.000</div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="image-container">
+                      <img src="./Assets/Images (5).png" alt="muggo" />
+                      <div class="discount1">New</div>
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Muggo</div>
+                      <div class="productsubtitle">small mug</div>
+                      <div class="price">Rp 150.000</div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="image-container">
+                      <img src="./Assets/image 7.png" alt="Pingky" />
+                      <div class="discount">-50%</div>
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Pingky</div>
+                      <div class="productsubtitle">cute bed set</div>
+                      <div class="price">
+                        Rp 7.000.000 <span class="original-price">Rp 14.000.000</span>
+                      </div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="image-container">
+                      <img src="./Assets/Images (7).png" alt="Potty" />
+                      <div class="discount1">New</div>
+                    </div>
+                    <div class="content">
+                      <div class="producttitle">Potty</div>
+                      <div class="productsubtitle">Minimalist flower pot</div>
+                      <div class="price">Rp 500.000</div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-text">
+                        <div class="cart">Add to Cart</div>
+                        <div class="social_icons">
+                            <div><img src="./assets/Vector (4).png" alt="Share"> Share</div>
+                            <div><img src="./assets/Vector (5).png" alt="Comment"> Comment</div>
+                            <div><img src="./assets/Vector (6).png " alt="Like"> Like</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <button class="show-more">Show More</button>
+              </section>
+<!-- dinesh code end -->
+
+
+
+            <!-- harish start code -->
+            <div class="inspiration">
+                <div class="card-beautiful">
+                  <br />
+                  <h4 class="beautiful">
+                    50+ Beautiful rooms<br />
+                    inspiration
+                  </h4>
+                  
+                  <p class="our">
+                    Our designer already made a lot of beautiful<br />
+                    prototipe of rooms that inspire you
+                  </p>
+                  
+                  <button class="explore">Explore More</button>
+                  
+                </div>
+                <div class="second-part">
+                  <img src="./assets/images/Rectangle 24.png" class="image-beautiful" />
+                  <div class="box">
+                    <p class="bed-room">01--Bed Room</p>
+                    <p class="inner-peace">Inner Peace</p>
+                    <div>
+                      <img src="./assets/images/CTA.png" class="arrow-right" />
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <img src="./assets/images/Rectangle 25.png" class="rectangle-25" />
+                  <img src="./assets/images/Group 13.png" class="group-13" />
+                </div>
+                <div>
+                  <img src="./assets/images/Indicator.png" class="indicator" />
+                </div>
+                <div>
+                  <img src="./assets/images/Rectangle 26.png" class="rectangle-26" />
+                </div>
+              </div>
+              <!-- harish code end -->
+               
+              <!-- varma code start -->
+              <div class="funiro_furniture">
+                <div class="funiro_furniture_head">
+                    <p>Share your setup with</p>
+                    <h1>#FuniroFurniture</h1>
+                </div>
+                <div class="funiro_furniture_images">
+                    <div class="funiro_furniture_images1">
+                        <div class="img_block11">
+                            <div class="fimage_1">
+                                <a href="image"><img src="./assets/images/Rectangle 60.png"></a>
+                            </div>
+                            <div class="fimage_2">
+                                <a href="image"><img src="./assets/images/Rectangle 80.png"></a>
+                            </div>
+                        </div>
+                        <div class="img_block12">
+                            <div class="fimage_3">
+                                <a href="image"><img src="./assets/images/Rectangle 7.png"></a>
+                            </div>
+                            <div class="fimage_4">
+                                <a href="image"><img src="./assets/images/Rectangle 90.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="funiro_furniture_images2">
+                        <div class="fimage_5">
+                            <a href="image"><img src="./assets/images/Rectangle 0.png"></a>
+                        </div>
+                    </div>
+                    <div class="funiro_furniture_images3">
+                        <div class="img_block11">
+                            <div class="fimage_6">
+                                <a href="image"><img src="./assets/images/Rectangle 3.png"></a>
+                            </div>
+                            <div class="fimage_7">
+                                <a href="image"><img src="./assets/images/Rectangle 50.png"></a>
+                            </div>
+                        </div>
+                        <div class="img_block12">
+                            <div class="fimage_8">
+                                <a href="image"><img src="./assets/images/Rectangle 1.png"></a>
+                            </div>
+                            <div class="fimage_9">
+                                <a href="image"><img src="./assets/images/Rectangle 4.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="absolute">
-                    <div><p><b>New Arrival</b></p1></div>
-                    <div ><h1>Discover Our<br/>New Collection</h1></div>
-                    <div><p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Ut tellus nec tellus,luctus nec ullamcorper mattis.</p><br/><br/><br/></div>
-                    <button class="buy">BUY NOW</button>
+    <footer>
+            <div class="horizontal_line"></div>
+            <div class="funiro_footer">
+                <div class="logo_footer">
+                    <a href="logo">
+                        <h2>Funiro.</h2>
+                    </a>
+                    <p>400 University Drive Suite 200 Coral<br>Gables,<br>FL 33134 USA</p>
+                </div>
+                <div class="links_helps">
+                    <div class="links_helps1">Links</div>
+                    <p><a href="home">Home</a></p>
+                    <p><a href="Shop">Shop</a></p>
+                    <p><a href="about">About</a></p>
+                    <p><a href="contact">Contact</a></p>
+                </div>
+                <div class="links_helps">
+                    <div class="links_helps1">Helps</div>
+                    <p><a href="payment">Payment Options</a></p>
+                    <p><a href="returns">Returns</a></p>
+                    <p><a href="policy">Privacy Policies</a></p>
+                </div>
+                <div class="newsletter">
+                    <div class="links_helps1">Newssletter</div>
+                    <div class="mail_bar">
+                        <input type="email" placeholder="Enter Your Email Address" class="search_" required>
+                        <a href="subscribe"><button>SUSCRIBE</button></a>
+                    </div>
+                </div>
             </div>
-    </body>
+            <div class="all_rights">
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </footer> 
+               <!-- varma code end -->
+</body>
+
 </html>
