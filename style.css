@@ -666,18 +666,21 @@ p a {
             height:450px; 
             padding-left:96px;
             border-right: none;
+            line-height:50px;
         }
          .items1{
             width:50%;
             height:450px;
             padding-left:96px;
             border-right: none;
+            line-height:50px;
         } 
         .items2{
             width:50%;
             height:450px;
             padding-left:96px;
             border-right: none;
+            line-height:50px;
         } 
     }
     /* Nikhitha code end */
