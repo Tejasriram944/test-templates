@@ -13,6 +13,10 @@
     padding-left: 50px;
     width: 160px;
 }
+.relative img{
+    width: 100%;
+    height: 620px;
+  }
 .navbar{
     display: flex;
     justify-content: space-evenly;
@@ -107,7 +111,7 @@ div.absolute{
       }
       .relative img{
         width: 100%;
-        height: 500px;
+        height: 600px;
       }
       div.absolute{
         display: flex;
