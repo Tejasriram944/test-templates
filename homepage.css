@@ -163,6 +163,10 @@ div.absolute {
 
 /*----------dinesh styles----*/
 
+body{
+    overflow-x: hidden;
+}
+
 .titletext h2 {
     font-weight: 700;
     font-size: 32px;
