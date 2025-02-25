@@ -286,8 +286,8 @@ hr {
 
 .desc{
     display: flex;
-    gap: 100px;
-    /* justify-content: center; */
+    gap: 150px;
+    align-items: center;
 }
 .but{
     background-color: #FFFFFF;
@@ -307,9 +307,40 @@ hr {
 .desc1{
     margin-left: 200px;
     color: #9F9F9F;
+    text-align: center;
+    width: 900px;
 }
 .image{
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+
+@media  screen and (max-width:430px) {
+      .desc{
+        flex-direction: row;
+        gap: 100px;
+        margin-left: 0px;
+        width: 650px;
+      }
+
+      .desc1{
+        text-align: center;
+        margin-left: 0px;
+        width: 700px;
+
+      }
+      .image{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 5px;
+        width: 700px;
+      }
+      .but1{
+        padding-left: 100px;
+
+      }
+    
 }
 
 /* mahesh code ends */
