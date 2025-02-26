@@ -265,7 +265,7 @@ hr {
     width: 20px;
     cursor: pointer;
 }
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:430px) {
     .card{
         display: flex;
         flex-direction: column;
@@ -310,7 +310,7 @@ hr {
     text-align: center;
     width: 900px;
 }
-.image{
+.image-sofa{
     margin-left: 30px;
 }
 
@@ -329,7 +329,7 @@ hr {
         width: 700px;
 
       }
-      .image{
+      .image-sofa{
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -358,7 +358,7 @@ hr {
     text-align: left;
 }
 .image01,.image11,.image21,.image31{
-    width:280px;
+    width:290px;
     height:350px;
     padding-left: 0%;
 }
@@ -388,7 +388,7 @@ hr {
     padding-left: 40px;
     padding-right: 40px;
 }
-.image{
+.image01,.image21,.image31{
     position:relative;
 }
 .image02,.image22{
@@ -459,13 +459,14 @@ hr {
 .label a{
     color:black;
 }
-@media (max-width:430px){
+@media screen and  (max-width:430px){
     .products{
         text-align: center;
         font-family:Arial, Helvetica, sans-serif;
         background-color: #FFFFFF;
         justify-content: center;
         align-items: center;
+        width:600px;
     
     }
     .orders{
@@ -473,14 +474,18 @@ hr {
         flex-direction: column;
         text-align:left;
         padding:40px;
+        width:500px;
+        align-items:center;
+        justify-content: center;
+        gap:20px;
     }
-    .image{
+    .image01,.image21,.image31{
         position:relative;
     }
     .image02,.image22{
         position:absolute;
         top:10px;
-        right:430px;
+        right:10px;
         /* left:50px; */
         background:rgb(233,113,113,1);
         color:white;
@@ -492,7 +497,7 @@ hr {
     .image34{
         position:absolute;
         top:10px;
-        right:430px;
+        right:10px; 
         background:rgb(46,193,172,1);
         color:white;
         padding:10px 10px;
@@ -501,7 +506,7 @@ hr {
         font-weight: bold;
     }
     .image01,.image11,.image21,.image31{
-        width:280px;
+        width:290px;
         height:350px;
     }
     .image04,.image25{
@@ -512,6 +517,7 @@ hr {
         justify-content: center;
         align-items: center;
         padding: 10px 20px;
+        padding-left: 120px;
     }
     .image12,.image23,.image33,.image03{
         color:rgba(159, 159, 159, 1);
@@ -539,7 +545,7 @@ hr {
         grid-template-columns:1fr;
         gap:20px;
         align-items: center;
-        /* padding-left: 60px; */
+        padding-left: 60px;
         align-items: center;
     }
     #para{
