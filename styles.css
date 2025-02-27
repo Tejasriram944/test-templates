@@ -478,7 +478,7 @@ hr {
         width:500px;
         align-items:center;
         justify-content: center;
-        gap:20px;
+        gap:50px;
     }
     .image01,.image21,.image31{
         position:relative;
@@ -528,6 +528,8 @@ hr {
     }
     .image32,.image24,.image25,.image13,.image05,.image04{
         padding-left: 15px;
+        background-color:#F4F5F7;
+
     }
     .more{
         color: rgba(184, 142, 47, 1);
