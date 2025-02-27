@@ -379,6 +379,7 @@ hr {
 }
 .image32,.image24,.image25,.image13,.image05,.image04{
     padding-left: 15px;
+    background-color:#F4F5F7;
 }
 .more{
     color: rgba(184, 142, 47, 1);
@@ -388,7 +389,7 @@ hr {
     padding-left: 40px;
     padding-right: 40px;
 }
-.image01,.image11,.image21,.image31{
+.image01,.image21,.image31{
     position:relative;
 }
 .image02,.image22{
