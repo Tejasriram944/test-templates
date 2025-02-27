@@ -585,7 +585,7 @@ p a {
     
     
     .listitems{
-        color:#F5F7FA;
+        color:#000000;
         width:400px;
         height:500px;
         gap:12px;
@@ -600,7 +600,7 @@ p a {
         
     }
     .listitems1{
-        color:#F5F7FA;
+        color:#000000;;
         width:400px;
         height:500px;
         gap:12px;
