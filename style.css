@@ -720,6 +720,12 @@ p a {
             border-right: none;
             line-height:50px;
         } 
+        .Product{
+            color:#000000;
+            height:min-content;
+            font-weight: bold;
+            font-size: 22px;
+           }
     }
     /* Nikhitha code end */
 
