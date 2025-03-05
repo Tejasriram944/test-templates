@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productcomparision</title>
+    
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.product_comparision_navbar {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px ;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 1);
+   
+}
+@media (max-width:480px) {
+    .product_comparision_navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .product_comparision_logo{
+        display: flex;
+        justify-content: center;
+    }
+    .product_comparision_menu a{
+        display: none ;
+    }
+    .product_comparision_nav-icons{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    
+}
+@media (max-width:760px) {
+    .product_comparision_navbar{
+        width: 100vh;
+    }
+   
+    
+}
+.product_comparision_logo {
+    display: flex;
+    align-items: center;
+}
+.product_comparision_icon img {
+    width: 40px;
+    margin-right: 10px;
+  }
+.product_comparision_icon {
+    font-size: 20px;
+    color: gold;
+    margin-right: 5px;
+}
+.product_comparision_brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.product_comparision_menu{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 170px;
+}
+.product_comparision_menu a {
+    margin: 0 15px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.product_comparision_menu a:hover {
+    color: gray;
+}
+.product_comparision_nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+}
+.product_comparision_nav-icons img {
+    width: 25px;
+    margin-left: 15px;
+  }
+.product_comparision_icons i:hover {
+    color: gray;
+}
+.product_comparision_img{
+    position: absolute;
+}
+.product_comparision_img_rectangle{
+    padding-top: 0%;
+    width: 100%;
+}
+@media (max-width:480px) {
+    .product_comparision_img_rectangle{
+        height: 300px;
+        width: 100%;
+    }
+    
+}
+@media(max-width:760px){
+    .product_comparision_img_rectangle{
+        width: 100%;
+    }
+
+}
+.product_comparision_overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.product_comparision_logo {
+    width: 40px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+.product_comparision_content {
+    z-index: 2;
+}
+.product_comparision_logo2 {
+    width: 40px; 
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+h1 {
+    margin: 5px 0;
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
+}
+p a {
+    padding-left: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.product_comparision_container {
+    padding-top: 150px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fff;
+    /* padding-top: 1px;
+    padding: 20px; */
+    /* width: 80%;
+    min-height: 100vh; */
+}
+@media (max-width:480px) {
+    .product_comparision_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product_comparision_product-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+   
+
+}
+.product_comparision_left-section{
+    padding-bottom: 80px;
+}
+.product_comparision_right-section {
+    margin-left: 0px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 20px;
+    /* width: 0%; */
+    text-align: center;
+}
+.product_comparision_left-section h3{
+    text-align: start;
+}
+.product_comparision_right-section h3{
+    text-align: start;
+}
+.product_comparision_view-more {
+    padding-right: 120px;
+    align-items: flex-start;
+    color: #666;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.product_comparision_product-cards {
+    display: flex;
+    gap: 20px;
+    width: 60%;
+    justify-content: center;
+}
+.product_comparision_card {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+.product_comparision_card img {
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 10px;
+}
+.product_comparision_card h3 , p{
+    text-align: start;
+}
+.product_comparision_product_sofa{
+    height: 170px;
+   
+}
+ .product_comparision_asgaard_sofa{
+    height: 170px;
+    width: 500px;
+ }
+.product_comparision_price {
+    color: #333;
+    font-weight: bold;
+}
+.product_comparision_rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    color: #666;
+}
+.product_comparision_reviews {
+    font-size: 12px;
+    color: #aaa;
+}
+.product_comparision_product_select {
+    font-weight: 600;
+    padding-top: 10px;
+    color: aliceblue;
+    background: rgba(184, 142, 47, 1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.product_comparision_product-button:hover {
+    background: #d4af37;
+}
+.product_comparision_star{
+    font-size: 20px;
+    color: rgba(255, 199, 0, 1);
+    ;
+}
+/* footer section priyanka */
+.body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAF3EA;
+    margin-bottom: 80px;
+    height: 270px;
+}
+.feature-item{
+    padding: 10px;
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    gap: 4px;
+}
+.feature-item img{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    font-family: 'Poppins';
+    
+}
+.text-2{
+    color: #666;
+    margin: 0px 0px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+.text-1{
+    color:solid#000000 ;
+    margin: 0px 0px;
+    height: 20px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.footer-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.ft-head{
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top:15px ;
+}
+.ft-discrip1{
+    color: #868585;
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-top: 20px;
+    margin-bottom: 30px; */
+}
+.ft-discrip2{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.ft-last{
+    border: #D9D9D9;
+    margin-left: 50px;
+    width: 1200px;
+    height: 59px;
+    border-top:#D9D9D9  20px;
+    margin-bottom: 20px;
+}
+.sub-btn{
+    background-color:  #FFFFFF;
+    border: none;
+    color: #000000;
+    border-bottom: solid #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.input-bar{
+    background-color:  #FFFFFF;
+    border: none;
+    border-bottom: solid #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ft-discrip3{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    border-top: #D9D9D9 solid;
+    text-align: left;
+    padding-top: 20px;
+}
+@media screen and (max-width:480px) {
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .features{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #FAF3EA;
+            margin-bottom: 0px;
+            height: 500px;
+            width: 480px;
+        }
+        .feature-item{
+            padding: 10px;
+            display: flex;
+            margin-bottom: 40px;
+            align-items: center;
+            gap: 4px;
+        }
+        .feature-item img{
+            width: 50px;
+            height: 50px;
+        }
+        .text{
+            font-family: 'Poppins';
+            
+        }
+        .text-2{
+            color: #666;
+            margin: 0px 0px;
+            height: 20px;
+            font-family: 'Poppins';
+            font-size: 15px;
+        }
+        .text-1{
+            color:solid#000000 ;
+            margin: 0px 0px;
+            height: 20px;
+            margin-bottom: 10px;
+            font-family: 'Poppins';
+            font-size: 20px;
+            font-weight: 400;
+            
+        }
+        .footer-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* margin-top: 45px; */
+        }
+        .ft-head{
+            color: #000000;
+            font-weight: 700;
+            font-size: 24px;
+            margin-top:15px;
+            text-align: center;
+        }
+        .ftr-content{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        .ft-discrip1{
+            color: #868585;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .ft-discrip2{
+            color: #000000;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .ft-last{
+            border: #D9D9D9;
+            margin-left: 50px;
+            width: 400px;
+            height: 40px;
+            border-top:#D9D9D9  20px;
+            margin-bottom: 20px;
+        }
+        
+        .sub-btn{
+            background-color:  #FFFFFF;
+            border: none;
+            color: #000000;
+            border-bottom: solid #000000;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .input-bar{
+            background-color:  #FFFFFF;
+            border: none;
+            border-bottom: solid #000000;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .ft-discrip3{
+            color: #000000;
+            font-weight: 400;
+            font-size: 16px;
+            border-top: #D9D9D9 solid;
+            text-align: left;
+            
+        }
+}
+    /* footer section end-priyanka */
+
+/* padma styles start */
+.dimension_txt {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 20px;
+    padding: 20px 0px;
+  }
+  
+  .first_box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  
+  .num_txt {
+    height: 50px;
+    width: 200px;
+  }
+  
+  .warranty_txt {
+    width: 200px;
+    height: 140px;
+  }
+  
+  .cart_button {
+    width: 150px;
+    height: 40px;
+    background: #b88e2f;
+    border: 1px solid #b88e2f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+  }
+  
+  .cart_button:hover{
+    background-color:cadetblue;
+    border:1px solid cadetblue;
+  }
+  
+  @media screen and (max-width:480px){
+      .first_box{
+          flex-direction: column;
+      }
+  
+      .warranty_txt {
+          width: 200px;
+          height: 150px;
+        }
+  }
+/* padma styles end */
+/* Nikhitha code start */
+.content{
+    height:900px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: solid #E8E8E8;
+    
+    }
+    
+    .list0{
+        color:#000000;
+        width:220px;
+        height:25px;
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        padding-top:60px;
+    }
+    .list1{
+        color:#000000;
+        width:220px;
+        height:25px;
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        padding-top:60px;
+    }
+    .list2{
+        color:#000000;
+        width:220px;
+        height:25px;
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        padding-top:60px;
+    } 
+    .items0{
+        width:340px;
+        /* height:300px; */
+        padding-left:100px;
+        border-right: solid #E8E8E8 ;
+       
+    }
+    .items1{
+        width:340px;
+        padding-left:70px;
+        border-right: solid #E8E8E8 ;
+       
+    }
+    .items2{
+        width:340px;
+        padding-left:70px;
+        border-right: solid #E8E8E8 ;
+       
+    }
+    .items3{
+        width:340px;
+        padding-left:100px;
+        border-right: solid #E8E8E8 ;
+       
+    }
+    .items4{
+        width:340px;
+        padding-left:70px;
+        border-right: solid #E8E8E8 ;
+       
+    }
+    .items5{
+        width:340px;
+        padding-left:70px;
+        border-right: solid #E8E8E8 ;
+     }
+    
+    .listitems{
+        color:#000000;
+        width:400px;
+        height:260px;
+        gap:12px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align:left;
+        font-family:sans-serif;
+        line-height: 100.42px;
+        
+    }
+    .listitems1{
+        color:#000000;;
+        width:400px;
+        height:300px;
+        gap:12px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align:left;
+        padding-top:150px;
+        font-family:sans-serif;
+        line-height: 100.42px;
+    }
+    
+    .General{
+        color:#000000;
+        width:225px;
+        height:35px;
+        gap:12px;
+        text-align:left;
+        /* padding-left: 96px; */
+        padding-top: 50px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 35.42px;
+    }
+    .Product{
+        color:#000000;
+        width:225px;
+        height:35px;
+        gap:12px;
+        text-align:left;
+        /* padding-left: 30px; */
+        padding-top: 100px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 35.42px;
+       }
+    
+    @media screen and (max-width:480px){
+        .content{
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            text-align: center;
+            border-top: none;
+            
+            }
+         .listitems{
+            color:#000000;
+            width:100%;
+            height:1350px;
+            display:flex;
+            flex-direction:column;
+            text-align:left;
+            font-family:sans-serif;
+            } 
+        .listitems1{
+            color:#000000;
+            width:100%;
+            height:950px;
+            display:flex;
+            flex-direction:column;
+            text-align:left;
+            font-family:sans-serif;
+        }
+        .items{
+            height:min-content;
+            padding-left:96px;
+            border-right: none;
+            line-height:50px;
+        }
+         .items1{
+            height:min-content;
+            padding-left:96px;
+            border-right: none;
+            line-height:50px;
+        } 
+        .items2{
+            height:min-content;
+            padding-left:96px;
+            border-right: none;
+            line-height:50px;
+        } 
+        .items3{
+            height:min-content;
+            padding-left:96px;
+            border-right: none;
+            line-height:50px;
+        }
+         .items4{
+            height:min-content;
+            padding-left:96px;
+            border-right: none;
+            line-height:50px;
+        } 
+        .items5{
+            height:min-content;
+            padding-left:96px;
+            border-right: none;
+            line-height:50px;
+        } 
+    }
+    /* Nikhitha code end */
+</styl>
+</head>
+<body>
+    <div class="Head Section">
+  <nav class="product_comparision_navbar">
+        <div class="product_comparision_logo">
+            <span class="product_comparision_icon"><img src="./Assets/Meubel House_Logos-05.png" alt=""></span>
+            <span class="product_comparision_brand">Furniro</span>
+        </div>
+        <div class="product_comparision_menu">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="product_comparision_nav-icons">
+              <img src="./Assets/mdi_account-alert-outline.png" alt="">
+              <img src="./Assets/akar-icons_search.png" alt="">
+              <img src="./Assets/akar-icons_heart.png" alt="">
+              <img src="./Assets/ant-design_shopping-cart-outlined.png" alt="">
+        </div>
+   </nav>  
+<header>
+    <div class="product_comparision_img">
+        <img src="./assets/Rectangle 1.png" alt="" class="product_comparision_img_rectangle">
+    </div>
+    <div class="product_comparision_overlay">
+        <div class="product_comparision_content">
+            <img src="./assets/Meubel House_Logos-05.png" alt="." class="product_comparision_logo2">
+            <h1>Product Comparison</h1>
+            <p><a href="#">Home</a> > Comparison</p>
+        </div>
+    </div>
+</header>
+  <div class="product_comparision_container">
+    <div class="product_comparision_left-section">
+        <h2>Go to Product <br>page for more <br>Products</h2><br>
+        <a href="#" class="product_comparision_view-more">View More  .</a>
+    </div>
+    <div class="product_comparision_product-cards">
+        <div class="product_comparision_card">
+            <img src="./assets/Asgaard sofa 3.png" alt="Asgaard Sofa" class="product_comparision_asgaard_sofa">
+            <h3>Asgaard Sofa</h3>
+            <p class="product_comparision_price">Rs. 250,000.00</p>
+            <div class="product_comparision_rating">
+                <span >4.2 <span class="product_comparision_star"> &#9733;&#9733;&#9733;&#9733;</span></span>
+                <span class="product_comparision_reviews">|204 Review</span>
+            </div>
+        </div>
+        <div class="product_comparision_card">
+            <img src="./assets/Outdoor sofa set 1.png" alt="Outdoor Sofa Set" class="product_comparision_product_sofa">
+            <h3>Outdoor Sofa Set</h3>
+            <p class="product_comparision_price">Rs. 224,000.00</p>
+            <div class="product_comparision_rating">
+                <span >4.2 <span class="product_comparision_star"> &#9733;&#9733;&#9733;&#9733;</span></span>
+                <span class="product_comparision_reviews"> |145 Review</span>
+            </div>  
+        </div>
+        <div class="product_comparision_right-section">
+                 <div>
+                    <h3>Add a product</h3>
+                 </div>
+             <select class="product_comparision_product_select"><option>Choose a product</option>
+                <option>SOFA SET</option>
+                <OPtion>OUT DOOR SOFA SET </OPtion>
+            </select>  
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--Nikhitha code start-->
+<div class="content">
+      
+    <div class="listitems">
+        <div class="items0">
+            <div class="General"><h1>General</h1></div>
+            <div class="list0">Sales Package</div>
+            <div class="list0">Model Number</div>
+            <div class="list0">Secondary Material</div>
+            <div class="list0">Configuration</div>
+            <div class="list0">Upholstery Material</div>
+            <div class="list0">Upholstery Color</div>
+        </div>  
+        <div class="items1">
+            <div class="General"></div>
+            <div class="list1">1 Sectional sofa</div>
+            <div class="list1">TFCBLIGRBL6SRHS</div>
+            <div class="list1">Solid Wood</div>
+            <div class="list1">L-shaped</div>
+            <div class="list1">Fabric+Cotton</div>
+            <div class="list1">Bright Grey & Lion</div>
+        </div>
+        <div class="items2">
+            <div class="General"></div>
+            <div class="list2">1 Three Seater,2 Single Seater </div>
+            <div class="list2">DTUBLIGRBL568</div>
+            <div class="list2">Solid Wood</div>
+            <div class="list2">L-shaped</div>
+            <div class="list2">Fabric+Cotton</div>
+            <div class="list2">Bright Grey & Lion</div>
+
+        </div>
+    </div>
+    
+    <div class="listitems1">
+        <div class="items3">
+            <div class="Product"><b>Product</b></div>
+            <div class="list0">Filling Material</div>
+            <div class="list0">Finish Type</div>
+            <div class="list0">Adjustable Headrest</div>
+            <div class="list0">Maximum Load Capacity</div>
+            <div class="list0">Origin of Manufacture</div>
+        </div>  
+        <div class="items4">
+            <div class="Product"></div>
+            <div class="list1">Foam</div>
+            <div class="list1">Bright Grey & Lion</div>
+            <div class="list1">No</div>
+            <div class="list1">280 KG</div>
+            <div class="list1">India</div>
+        </div>
+        <div class="items5">
+            <div class="Product"></div>
+            <div class="list2">Matte</div>
+            <div class="list2">Bright Grey & Lion</div>
+            <div class="list2">Yes</div>
+            <div class="list2">300 KG</div>
+            <div class="list2">India</div>
+        </div>
+    </div>
+    
+    </div>
+    
+    </div>
+
+   
+  
+</div>
+<!--Nikhitha code end-->
+<!-- padma code start -->
+<div class="dimension_txt">Dimensions</div>
+   <div class="first_box"> 
+      <div class="num_txt">Width</div> 
+      <div class="num_txt">265.32 cm</div> 
+      <div class="num_txt">265.32 cm</div>
+    </div> 
+</div>
+<div class="first_box">
+   <div class="num_txt">Height</div> 
+   <div class="num_txt">76 cm</div> 
+   <div class="num_txt">76 cm</div>
+</div>
+<div class="first_box"> 
+   <div class="num_txt">Depth</div> 
+   <div class="num_txt">167.76 cm</div> 
+   <div class="num_txt">167.76 cm</div>
+</div>
+<div class="first_box"> 
+   <div class="num_txt">Weight</div> 
+   <div class="num_txt">45 KG</div> 
+   <div class="num_txt">65 KG</div> 
+</div>
+<div class="first_box">
+   <div class="num_txt">Seat Height</div> 
+   <div class="num_txt">41.52 cm</div> 
+   <div class="num_txt">41.52 cm</div>
+</div>
+<div class="first_box"> 
+   <div class="num_txt">Leg Height</div> 
+   <div class="num_txt">5.46 cm</div> 
+   <div class="num_txt">5.46 cm</div> 
+</div>
+   <div class="dimension_txt">Warranty</div>
+   <div class="first_box"> 
+   <div class="warranty_txt">Warranty Summary</div> 
+   <div class="warranty_txt">1 Year Manufacturing Warranty</div> 
+   <div class="warranty_txt">1.2 Year Manufacturing Warranty</div> 
+</div>
+<div class="first_box">
+   <div class="warranty_txt">Warranty Service Type</div> 
+   <div class="warranty_txt">For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</div> 
+   <div class="warranty_txt">For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</div> 
+</div>
+<div class="first_box">
+<div class="warranty_txt">Covered in Warranty</div> 
+   <div class="warranty_txt">Warranty Against Manufacturing Defect</div>
+   <div class="warranty_txt">Warranty of the product is limited to manufacturing defects only.</div>
+</div>
+   <div class="first_box">
+   <div class="warranty_txt">Not Covered in Warranty</div>
+   <div class="warranty_txt">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</div>
+   <div class="warranty_txt">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</div>
+</div>
+   <div class="first_box">
+   <div class="warranty_txt">Domestic Warranty</div>
+   <div class="warranty_txt">1 Year</div>
+   <div class="warranty_txt">3 Months</div>
+</div>
+
+<div class="first_box">
+    <div class="warranty_txt"></div>
+    <div class="warranty_txt">
+    <button class="cart_button">Add To Cart</button>
+</div>
+<div class="warranty_txt">
+    <button class="cart_button">Add To Cart</button>
+    </div>
+ </div>
+</div>
+<!-- padma code end -->
+<!-- footer section priyanka -->
+<div class="features">
+    <div class="feature-item">
+        <div>
+        <image src="assets/trophy.png" alt="trophy">
+        </div>
+            <div class="text">
+        <p class="text-1"> High Quality</p>
+        <p class="text-2">crafted from top materials</p>
+        </div>
+    </div>
+        <div class="feature-item">
+            <div>
+            <img src="assets/guarantee.png" alt="trophy">
+            </div>
+            <div class="text">
+            <p class="text-1">Warranty Protection</p>
+            <p class="text-2">Over 2 years</p>
+            </div>
+        </div>
+            <div class="feature-item">
+                <div>
+                <img src="assets/shipping.png" alt="trophy">
+            </div>
+              <div class="text">
+                <p class="text-1">Free shipping</p>
+                <p class="text-2">Order over 150 $</p>
+                </div>
+            </div>
+                <div class="feature-item">
+                    <div>
+                    <img src="assets/customersupport.png" alt="trophy">
+                </div>
+                <div class="text">
+                    <p class="text-1">24 / 7 Support</p>
+                    <p class="text-2">Dedicated support</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="main-footer">
+            <div class="footer-1">
+                <div>
+                    <p class="ft-head">Funiro.</p>
+                    <p  class="ft-discrip1">400 University Drive Suite 200 Coral 
+                    <p class="ft-discrip1">Gables,</p>    
+                    </p>
+                    <p class="ft-discrip1">FL 33134 USA</p>
+                </div>
+                <div class="ftr-content">
+                    <p class="ft-discrip1">Link</p>
+                    <p class="ft-discrip2">Home</p>
+                    <p class="ft-discrip2">Shop</p>
+                    <p class="ft-discrip2">About</p>
+                    <p class="ft-discrip2">Contact</p>
+                </div>
+                <div class="ftr-content">
+                    <p class="ft-discrip1">Help</p>
+                    <p class="ft-discrip2">Payment options</p>
+                    <p class="ft-discrip2">Returns</p>
+                    <p class="ft-discrip2">Privacy policy</p>
+                </div>
+                <div class="ftr-content">
+                    <p class="ft-discrip1">Newsletter</p>
+                    <label for="mail"></label>
+                    <input type="email" id="mail" placeholder="Entet Your Email Address" class="input-bar">
+                    <button class="sub-btn">SUBSCRIBE</button>
+            
+                </div>
+               
+            </div>
+            <div  class="ft-last">
+                <p class="ft-discrip3">2023 furino. All rights reverved</p>
+            </div>
+        </div>
+        <!-- footer section end -priyanka -->
+
+</body>
+</html>
